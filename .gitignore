@@ -1,0 +1,34 @@
+mkdir <nome da pasta> - cria uma pasta no desktop
+cd <nome da pasta> - navega para a pasta
+code - abre a pasta no visual studio code
+
+deps
+  dependencies - entram no pacote
+  devDependences - nao entram no pacote
+  globlaDependences - sao instaladas na maquina
+
+Inicializar um projeto Node usando o comando 
+  npm init --yes
+
+Instalar o Cypress como o comando 
+  npm install -D cypress
+
+Abrir o Cypress como o comando
+  npx cypress open
+
+O arquivo cypress.config.js 
+  fica todas as configurações do cypress
+
+A pasta e2e 
+  arquivos de testes/specs
+
+A pasta fixtures
+  arquivos que possuem dados ou scripts que geram para serem usadas durante o teste
+  ex.: example.json
+
+Criar pasta no 2e2
+  finances.cy.js
+Dentro da pasta colocar o comando
+  Describe
+  it
+  cy.visit('colocar o site do projeto')
