@@ -10,6 +10,10 @@ describe('Transações', () => {
 
       cy.contains('Salvar').click()
 
+      cy.get('#date').type('2024-12-25')
+
+      cy.contains('Salvar').click()
+
       cy.get('table tbody tr').should('have.length', 1)
     });
 });
